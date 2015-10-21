@@ -18,15 +18,14 @@ interactions between the user and the keyboard.
 1. Fork the assignment's repository from (https://github.com/iosdecal).
 2. Clone your forked repository to your local machine (the URL should contain
    YOUR_USERNAME/ios-decal-..).
-3. ** Add to KeyboardViewController.swift and Keyboard.xib **
-4. Add, commit, and push your modified file(s) to your forked remote repository.
-
-## Requirements
-1. A "Next Keyboard button" (done for you already, but feel free to change the
+3. **Add to KeyboardViewController.swift and Keyboard.xib**
+  * Required
+    * A "Next Keyboard" button (done for you already, but feel free to change the
    image, text, etc.)
-2. A "Return button"
-3. A "Delete button"
-4. Various "input buttons" (e.g. ASCII Text, GIFS, Unicode, Emojis, etc.)
+    * A "Return" button
+    * A "Delete" button
+    * Various input buttons (e.g. ASCII Text, GIFS, Unicode, Emojis, etc.)
+4. Add, commit, and push your modified file(s) to your forked remote repository.
 
 ## Setup Video
 https://youtu.be/qY8V69PxP8Q
