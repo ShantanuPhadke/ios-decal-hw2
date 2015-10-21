@@ -1,4 +1,4 @@
-# Homework 2: Custom Keyboard with Storyboard
+# Homework 2: Custom Keyboard
 
 ## Due
 Wednesday, September 23 at 11:59 PM
