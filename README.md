@@ -20,8 +20,8 @@ interactions between the user and the keyboard.
    YOUR_USERNAME/ios-decal-..).
 3. **Add to KeyboardViewController.swift and Keyboard.xib**
   * Required
-    * A "Next Keyboard" button (done for you already, but feel free to change the
-   image, text, etc.)
+    * A "Next Keyboard" button (done for you already, but feel free to change
+            the image, text, etc.)
     * A "Return" button
     * A "Delete" button
     * Various input buttons (e.g. ASCII Text, GIFS, Unicode, Emojis, etc.)
