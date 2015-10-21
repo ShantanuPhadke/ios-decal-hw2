@@ -15,12 +15,10 @@ Our app will be a custom keyboard -- think emojis, but with our own buttons and 
 4. Add, commit, and push your modified file(s) to your forked remote repository.
 
 ## Requirements
-1. Must have a "Next Keyboard button"
-    - This is done for you already, but feel free to change the image,text,etc
-2. Must have a "Return button"
-3. Must have a "Delete button"
-4. Must have various "input buttons"
-    - Examples of inputs: ASCII Text, GIFS, Unicode, Emojis, etc.
+1. A "Next Keyboard button" (done for you already, but feel free to change the image, text, etc.)
+2. A "Return button"
+3. A "Delete button"
+4. Various "input buttons" (e.g. ASCII Text, GIFS, Unicode, Emojis, etc.)
 
 ## Setup Video
 https://youtu.be/qY8V69PxP8Q
