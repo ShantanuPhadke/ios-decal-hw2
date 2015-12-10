@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="CalKeyboard" customModuleProvider="target">
             <connections>
+                <outlet property="aButton" destination="LPx-bd-cGJ" id="zwN-c7-Mb1"/>
+                <outlet property="bButton" destination="EmD-aY-8Lv" id="Yc8-8O-p9Z"/>
+                <outlet property="cButton" destination="MZg-Uq-YSO" id="DU5-K9-eoq"/>
+                <outlet property="dButton" destination="mO3-vX-LhT" id="m1w-nT-STr"/>
+                <outlet property="deleteButton" destination="HIw-VR-7oS" id="rwB-7x-c19"/>
+                <outlet property="eButton" destination="NxX-8c-vyS" id="cq0-os-Fyb"/>
+                <outlet property="fButton" destination="GFR-eV-jkq" id="YdJ-hw-JqS"/>
+                <outlet property="gButton" destination="ZRS-II-e0S" id="juQ-aU-pkt"/>
+                <outlet property="hButton" destination="6pQ-po-s9v" id="MQo-DF-fA0"/>
+                <outlet property="iButton" destination="kQv-gp-iUJ" id="uBC-y5-Xo4"/>
+                <outlet property="jButton" destination="8W4-Sz-AUc" id="U5B-6G-gva"/>
+                <outlet property="kButton" destination="5ag-ue-ziK" id="ySA-yI-ZcM"/>
+                <outlet property="lButton" destination="Ml9-Up-bVf" id="6Xl-fk-Vb1"/>
+                <outlet property="mButton" destination="ZjR-Jp-a0S" id="2bQ-rQ-Iqg"/>
+                <outlet property="nButton" destination="g2y-5Q-gFI" id="2qg-w7-buQ"/>
                 <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="CWQ-gG-G2m"/>
+                <outlet property="oButton" destination="JAf-7k-A8B" id="WD1-kf-I7Y"/>
+                <outlet property="pButton" destination="9fe-Im-3uu" id="SIg-uO-f3R"/>
+                <outlet property="qButton" destination="Qh5-Ao-h5n" id="lLt-qz-szS"/>
+                <outlet property="rButton" destination="aud-h2-c6g" id="DO4-Xw-TyI"/>
+                <outlet property="returnButton" destination="JAT-X2-O1s" id="XTk-SD-OOq"/>
+                <outlet property="sButton" destination="yiO-MG-uJ0" id="Ppx-sT-qRU"/>
+                <outlet property="spaceButton" destination="DBc-kK-f30" id="HI7-l9-bBF"/>
+                <outlet property="tButton" destination="RqR-1X-KLB" id="HmH-ZC-tOf"/>
+                <outlet property="uButton" destination="zw5-ys-Tz4" id="xwN-WY-CaJ"/>
+                <outlet property="vButton" destination="clY-dV-ptP" id="Bmf-Vh-QFQ"/>
+                <outlet property="wButton" destination="kxh-ae-Fuu" id="QAB-ml-gy3"/>
+                <outlet property="xButton" destination="bmf-bz-Uh5" id="B5O-eC-myf"/>
+                <outlet property="yButton" destination="baf-E3-UYz" id="LWJ-BY-5ln"/>
+                <outlet property="zButton" destination="49A-MN-8en" id="RDN-dt-qa5"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -14,13 +43,129 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
-                    <rect key="frame" x="8" y="162" width="30" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
+                    <rect key="frame" x="8" y="77" width="30" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="30" id="eu0-xj-Jov"/>
                         <constraint firstAttribute="height" constant="30" id="rFT-bm-aBM"/>
                     </constraints>
+                    <state key="normal" title="NN"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw5-ys-Tz4">
+                    <rect key="frame" x="54" y="123" width="30" height="30"/>
+                    <state key="normal" title="U"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clY-dV-ptP">
+                    <rect key="frame" x="108" y="123" width="30" height="30"/>
+                    <state key="normal" title="V"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxh-ae-Fuu">
+                    <rect key="frame" x="162" y="123" width="30" height="30"/>
+                    <state key="normal" title="W"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmf-bz-Uh5">
+                    <rect key="frame" x="216" y="123" width="30" height="30"/>
+                    <state key="normal" title="X"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baf-E3-UYz">
+                    <rect key="frame" x="270" y="123" width="30" height="30"/>
+                    <state key="normal" title="Y"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49A-MN-8en">
+                    <rect key="frame" x="324" y="123" width="30" height="30"/>
+                    <state key="normal" title="Z"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAf-7k-A8B">
+                    <rect key="frame" x="54" y="85" width="30" height="30"/>
+                    <state key="normal" title="O"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fe-Im-3uu">
+                    <rect key="frame" x="108" y="85" width="30" height="30"/>
+                    <state key="normal" title="P"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qh5-Ao-h5n">
+                    <rect key="frame" x="162" y="85" width="30" height="30"/>
+                    <state key="normal" title="Q"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aud-h2-c6g">
+                    <rect key="frame" x="216" y="85" width="30" height="30"/>
+                    <state key="normal" title="R"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiO-MG-uJ0">
+                    <rect key="frame" x="270" y="85" width="30" height="30"/>
+                    <state key="normal" title="S"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RqR-1X-KLB">
+                    <rect key="frame" x="324" y="85" width="30" height="30"/>
+                    <state key="normal" title="T"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQv-gp-iUJ">
+                    <rect key="frame" x="54" y="46" width="30" height="30"/>
+                    <state key="normal" title="I"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8W4-Sz-AUc">
+                    <rect key="frame" x="108" y="46" width="30" height="30"/>
+                    <state key="normal" title="J"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ag-ue-ziK">
+                    <rect key="frame" x="162" y="46" width="30" height="30"/>
+                    <state key="normal" title="K"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-Up-bVf">
+                    <rect key="frame" x="216" y="46" width="30" height="30"/>
+                    <state key="normal" title="L"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjR-Jp-a0S">
+                    <rect key="frame" x="270" y="46" width="30" height="30"/>
+                    <state key="normal" title="M"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2y-5Q-gFI">
+                    <rect key="frame" x="324" y="46" width="30" height="30"/>
                     <state key="normal" title="N"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmD-aY-8Lv">
+                    <rect key="frame" x="54" y="8" width="30" height="30"/>
+                    <state key="normal" title="B"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZg-Uq-YSO">
+                    <rect key="frame" x="108" y="8" width="30" height="30"/>
+                    <state key="normal" title="C"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mO3-vX-LhT">
+                    <rect key="frame" x="162" y="8" width="30" height="30"/>
+                    <state key="normal" title="D"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxX-8c-vyS">
+                    <rect key="frame" x="216" y="8" width="30" height="30"/>
+                    <state key="normal" title="E"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFR-eV-jkq">
+                    <rect key="frame" x="270" y="8" width="30" height="30"/>
+                    <state key="normal" title="F"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRS-II-e0S">
+                    <rect key="frame" x="324" y="8" width="30" height="30"/>
+                    <state key="normal" title="G"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPx-bd-cGJ">
+                    <rect key="frame" x="8" y="8" width="30" height="30"/>
+                    <state key="normal" title="A"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-po-s9v">
+                    <rect key="frame" x="8" y="46" width="30" height="30"/>
+                    <state key="normal" title="H"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAT-X2-O1s">
+                    <rect key="frame" x="46" y="178" width="46" height="30"/>
+                    <state key="normal" title="Return"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-VR-7oS">
+                    <rect key="frame" x="317" y="178" width="45" height="30"/>
+                    <state key="normal" title="Delete"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBc-kK-f30">
+                    <rect key="frame" x="139" y="178" width="128" height="30"/>
+                    <state key="normal" title="Space"/>
                 </button>
             </subviews>
             <constraints>
